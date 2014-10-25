@@ -1,0 +1,23 @@
+<html>
+	<meta charset="utf-8"/>
+	<head>
+		<title>
+			Un formulario de prueba
+		</title>
+	</head>
+	<body>
+		<!-- archivos estaticos no es necesrio reiniciar servidor -->
+		<h1>Hola, ingresa tu nombre y contraseña para entrar al sitio</h1>
+		<!-- el / para que lo aguarre directamente del home -->
+		<form action="/entrar" method="post">
+			Usuario:
+			<input type="text" id="user" name="usuario"/>
+			<br/>
+			Contraseña:
+			<input type="password" id="password" name="clave"/>
+			<br/>
+
+			<input type="submit" id="enviar" name="enviar" value="manda la wea"/>
+		</form>
+	</body>
+</html>
